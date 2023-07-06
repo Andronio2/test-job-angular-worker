@@ -1,0 +1,14 @@
+<form class="header">
+  <mat-form-field class="header__timer">
+    <mat-label>Timer, ms</mat-label>
+    <input type="number" matInput placeholder="" value="1000" [formControl]="inputTime">
+  </mat-form-field>
+  <mat-form-field class="header__amount">
+    <mat-label>Array size</mat-label>
+    <input type="number" matInput placeholder="" value="10" [formControl]="inputAmount">
+  </mat-form-field>
+  <mat-form-field class="header__array">
+    <mat-label>Additional array ID</mat-label>
+    <input matInput placeholder="" value="987">
+  </mat-form-field>
+</form>

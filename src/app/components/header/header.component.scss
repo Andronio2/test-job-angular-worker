@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  gap: 2rem;
+
+  &__timer,
+  &__amount {
+    flex-grow: 1;
+  }
+
+  &__array {
+    flex-grow: 2;
+  }
+}
